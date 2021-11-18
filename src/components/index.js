@@ -3,6 +3,12 @@ import 'vant/lib/col/index.css';
 import Row from 'vant/lib/row';
 import 'vant/lib/row/index.css';
 import { Layout, Header, Aside, Main, Footer } from './layout'
+import CBoxCenter from './box-center'
+import CBoxSkin from './box-skin'
+import CSingleCenter from './single-center'
+import CLaunch from './launch'
+import CFootNav from './foot-nav'
+import CMagazine from './magazine'
 
 const components = {
   CRow: Row,
@@ -11,7 +17,13 @@ const components = {
   Header,
   Aside,
   Main,
-  Footer
+  Footer,
+  CBoxSkin,
+  CBoxCenter,
+  CSingleCenter,
+  CLaunch,
+  CFootNav,
+  CMagazine
 }
 // ROW 和 Col做成全局组件
 const install = (app) => {

@@ -9,4 +9,6 @@ import Mui from '@/components'
 import '@/mock'
 import 'lib-flexible/flexible'
 
+import '@icon-park/vue-next/styles/index.css';
+
 createApp(App).use(store).use(router).use(Mui).mount('#app')

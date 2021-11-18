@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const service = axios.create({
-
+  baseURL: '/api'
 })
 
 service.interceptors.request.use( // 请求拦截

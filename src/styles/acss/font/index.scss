@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'feichi';
+  src: url('~@/styles/acss/font/feichi/feichi.eot');
+  src:
+    url('~@/styles/acss/font/feichi/feichi.eot?#font-spider') format('embedded-opentype'),
+    url('~@/styles/acss/font/feichi/feichi.woff2') format('woff2'),
+    url('~@/styles/acss/font/feichi/feichi.woff') format('woff'),
+    url('~@/styles/acss/font/feichi/feichi.ttf') format('truetype'),
+    url('~@/styles/acss/font/feichi/feichi.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[font-feichi] {
+  font-family: 'feichi';
+}

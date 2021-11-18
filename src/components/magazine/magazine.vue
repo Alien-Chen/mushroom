@@ -1,0 +1,19 @@
+<template>
+  <div :style="'position: relative; background: url('+image+') center; background-size: cover;'">
+    <slot></slot>
+  </div>
+</template>
+<script>
+export default {
+  name: 'CMagazine',
+  props: {
+    image: String
+  },
+  setup() {
+    
+  },
+}
+</script>
+<style lang="scss" scoped>
+
+</style>
